@@ -23,7 +23,7 @@ pokemonApp.controller('PokemonDetailCtrl', function($scope, $routeParams, Pokemo
 
             } );
 
-        }
+        };
 
     $scope.deletePokemon = function(pokemonId) {
 
