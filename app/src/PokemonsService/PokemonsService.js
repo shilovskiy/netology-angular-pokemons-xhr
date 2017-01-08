@@ -4,7 +4,7 @@ angular
         var pokurl= 'http://pokeapi.co/api/v2/pokemon?limit=1000';
         return {
                 getPokemons: function() {
-                    return $http.get(pokurl);
+                    return $http.get(pokurl); //try to use ext url
                 },
 
                 getPokemon: function(pokemonId) {
